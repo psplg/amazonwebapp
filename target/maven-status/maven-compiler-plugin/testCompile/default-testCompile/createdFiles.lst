@@ -1,0 +1,6 @@
+com\amazon\amazonwebapp\stepdefinition\StepHooks.class
+com\amazon\amazonwebapp\testrunner\HooksClass.class
+com\amazon\amazonwebapp\stepdefinition\HomePageAccessTest.class
+com\amazon\amazonwebapp\stepdefinition\MRSHomePageTest.class
+com\amazon\amazonwebapp\testrunner\RunTest.class
+com\amazon\amazonwebapp\stepdefinition\LoginTest.class

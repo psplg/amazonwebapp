@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.040772">
+<testcase classname="MRS application" name="MRS app test" time="0.040772">
+<system-out><![CDATA[Given user is logged in to MRS app..........................................skipped
+When user clicks on option "Inpatient Ward".................................skipped
+And user clicks on login button.............................................skipped
+And clicks on Apppoinment Scheduling........................................skipped
+Then user is navigated to "<title>" page....................................skipped
+Given user is logged in to MRS app..........................................skipped
+When user clicks on option "Inpatient Ward".................................skipped
+And user clicks on login button.............................................skipped
+And user clicks on Apppoinment Scheduling...................................skipped
+And user clicks on Manage Service Types.....................................skipped
+Then user should be able to view a tabular list of Services.................skipped
+]]></system-out>
+</testcase>
+</testsuite>

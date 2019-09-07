@@ -1,0 +1,214 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 23,
+        "name": "MRS app test",
+        "description": "",
+        "id": "mrs-application;mrs-app-test;;2",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "StepHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is logged in to MRS app",
+            "match": {
+              "location": "MRSHomePageTest.user_is_logged_in_to_MRS_app(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "userpassword"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "Admin123"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on option \"Inpatient Ward\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Inpatient Ward",
+                  "offset": 23
+                }
+              ],
+              "location": "MRSHomePageTest.user_clicks_on_option(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "MRSHomePageTest.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "clicks on Apppoinment Scheduling",
+            "match": {
+              "location": "MRSHomePageTest.clicks_on_Apppoinment_Scheduling()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is navigated to \"\u003ctitle\u003e\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003ctitle\u003e",
+                  "offset": 22
+                }
+              ],
+              "location": "MRSHomePageTest.user_is_navigated_to_title_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location",
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "Inpatient Ward",
+                  "OpenMRS Electronic Medical Record"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user is logged in to MRS app",
+            "match": {
+              "location": "MRSHomePageTest.user_is_logged_in_to_MRS_app(DataTable)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user clicks on option \"Inpatient Ward\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Inpatient Ward",
+                  "offset": 23
+                }
+              ],
+              "location": "MRSHomePageTest.user_clicks_on_option(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "MRSHomePageTest.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user clicks on Apppoinment Scheduling",
+            "match": {
+              "location": "MRSHomePageTest.user_clicks_on_Apppoinment_Scheduling()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user clicks on Manage Service Types",
+            "match": {
+              "location": "MRSHomePageTest.user_clicks_on_Manage_Service_Types()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user should be able to view a tabular list of Services",
+            "match": {
+              "location": "MRSHomePageTest.user_should_be_able_to_view_a_tabular_list_of_Services()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MRSTest"
+          }
+        ]
+      }
+    ],
+    "name": "MRS application",
+    "description": "",
+    "id": "mrs-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/amazon/amazonwebapp/feature/OpenMRSTest.feature",
+    "tags": [
+      {
+        "name": "@MRSTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
